@@ -77,3 +77,18 @@ button{
     border-radius: 5px;
     font-size: 20px;
 }
+input.ng-touched.ng-invalid{
+    border: 2px solid red;
+}
+input.ng-touched.ng-valid{
+    border: 2px solid green;
+}
+.name-error{
+    font-size: 10px;
+}
+.pass-error{
+    font-size: 10px;
+}
+.spec-error{
+    font-size: 10px;
+}
